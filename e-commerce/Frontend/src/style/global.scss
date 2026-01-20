@@ -1,0 +1,164 @@
+.container-custom {
+    width: 96%;
+    margin: 0px auto;
+}
+.nav-container
+{
+    // width: 100%;
+    height: 60px;
+    margin: 0px auto;
+    // border: solid 1px rgb(172, 78, 78);
+}
+.navigation-bar
+{
+    background-color: rgb(32, 112, 125) !important;
+    border-radius: 10px;
+    width: 96%;
+    height: 60px;
+    margin-top: 10px;
+    padding: 0px 40px;
+}
+
+.nav-color
+{
+    color: white !important;
+}
+
+.search-bar{
+    width: 350px;
+    height: 40px;
+    border-radius: 0px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.search-icon{
+    height: 40px;
+    // width: 10px;
+    // font-size: 20px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+
+.login-drop
+{
+    list-style-type: none;
+    color: white !important;
+    border: none;
+    font-size: large;
+    // background-color: ;
+}
+
+.signup{
+    font-size: 16px;
+    color: rgb(50, 50, 234);
+}
+
+.cart {
+    line-height: 60px;
+    position: relative;
+}
+
+.count{
+    background-color: rgb(250, 86, 86);
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 14px;
+    color: white;
+    left: 20px;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.view{
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.05);
+}
+
+.box-login
+{
+    width: 400px;
+    padding: 25px;
+    position: absolute;
+    top: 150px;
+    box-shadow: 2px 2px 10px rgb(207, 201, 201);
+    border-radius: 15px;
+    left: 50%;
+    border: none;
+    transform: translatex(-50%);
+}
+
+.box-register
+{
+    width: 400px;
+    padding: 25px;
+    position: absolute;
+    top: 90px;
+    box-shadow: 2px 2px 10px rgb(207, 201, 201);
+    border-radius: 15px;
+    left: 50%;
+    border: none;
+    transform: translatex(-50%);
+}
+
+.button
+{
+    padding: 5px 45px;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.page-not-found{
+    background-color: rgba($color: #000000, $alpha: 0.04);
+}
+
+.page-not-found h1{
+    font-size: 7.5em;
+}
+
+.home
+{
+    width: 96%;
+    margin: 40px auto;
+}
+
+.cart-button:hover {
+    transform: scale(1.5);
+    background-color: #000000;
+}
+
+.error
+{
+    color: #ea0a0a;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+// Cart page
+
+.cart-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-bottom: 50px;
+
+  .cart-item-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #eee;
+  }
+
+  // Makes the summary box sticky on large screens
+  .summary-card {
+    @media (min-width: 992px) {
+      position: sticky;
+      top: 90px; // Adjust based on your Navbar height
+    }
+  }
+}
